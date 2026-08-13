@@ -1,0 +1,129 @@
+{
+  "train": null,
+  "test1": {
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "warnings": {
+      "BENIGN": 5,
+      "LOW": 1
+    },
+    "traffic_data": [
+      {
+        "second": 1,
+        "FlowPackets_s": 4.910566611855103,
+        "FlowBytes_s": 486.1460945736552,
+        "FlowDuration": 0.4072849750518799,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.44811813514574
+      },
+      {
+        "second": 2,
+        "FlowPackets_s": 43.06221599477669,
+        "FlowBytes_s": 11278.694643729039,
+        "FlowDuration": 38.94796419143677,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 6.169340897425312
+      },
+      {
+        "second": 3,
+        "FlowPackets_s": 9.717765029702605,
+        "FlowBytes_s": 1088.3896833266915,
+        "FlowDuration": 0.3087129592895508,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.861498638543853
+      },
+      {
+        "second": 4,
+        "FlowPackets_s": 24.489450747350716,
+        "FlowBytes_s": 9714.927858210476,
+        "FlowDuration": 1.97310209274292,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.217869433488267
+      },
+      {
+        "second": 5,
+        "FlowPackets_s": 70.79804236740046,
+        "FlowBytes_s": 47703.11788483702,
+        "FlowDuration": 3.1420059204101562,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 4.892650180423449
+      },
+      {
+        "second": 6,
+        "FlowPackets_s": 71697.50427350428,
+        "FlowBytes_s": 3011295.1794871795,
+        "FlowDuration": 2.789497375488281e-05,
+        "Label": "BENIGN",
+        "Warning": "LOW",
+        "score": 7.132860939480584
+      }
+    ],
+    "max_seconds": 6,
+    "confusion_matrices": {
+      "LOW": [
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "MED": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "HIGH": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "confusion_metrics": {
+      "LOW": {
+        "accuracy": 0.8333333333333334,
+        "precision_attack": 0.0,
+        "recall_attack": 0.0,
+        "f1_attack": 0.0,
+        "balanced_accuracy": 0.8333333333333334
+      },
+      "MED": {
+        "accuracy": 1.0,
+        "precision_attack": 0.0,
+        "recall_attack": 0.0,
+        "f1_attack": 0.0,
+        "balanced_accuracy": 1.0
+      },
+      "HIGH": {
+        "accuracy": 1.0,
+        "precision_attack": 0.0,
+        "recall_attack": 0.0,
+        "f1_attack": 0.0,
+        "balanced_accuracy": 1.0
+      }
+    },
+    "first_low": 6.0,
+    "first_med": null,
+    "first_high": null,
+    "peak_sec": 6,
+    "peak_val": 71697.50427350428
+  },
+  "test2": null
+}
